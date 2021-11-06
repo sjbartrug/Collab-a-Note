@@ -1,0 +1,152 @@
+.detail-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 94vh;
+  width: 100vw;
+}
+
+.detail-title {
+  font-family: Montserrat-Bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.detail-subtitle {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Shared users section */
+
+.shared-users-container {
+  text-align: center;
+}
+
+.more-users {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 65px;
+  background-color: rgb(66, 64, 64);
+}
+
+.more-users-counter {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: #fafafa;
+}
+
+.shared-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shared-dialog {
+  width: 100%;
+}
+
+.user-item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 18px;
+  position: relative;
+  align-items: stretch;
+  width: 100%;
+}
+
+.user-item-name {
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.user-item-email {
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.add-users-form-search {
+  display: flex;
+  flex-direction: row;
+}
+
+/* notes section */
+
+.notes-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.note-buttons-container {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.note-item-container {
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+
+.note-item-title {
+  margin-bottom: 20px;
+  font-family: Montserrat-Bold;
+}
+
+.note-item-sub {
+  line-height: 10px;
+}
+
+/* dueDates section */
+
+.due-dates-container {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.add-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  height: auto;
+}
+
+.due-date-item-container {
+  cursor: pointer;
+  font-size: 10%;
+  text-decoration: none;
+  position: relative;
+}
+
+.due-date-item-title {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.due-date-item-date {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.due-date-item-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.past-title {
+  color: red;
+  font-size: 16px;
+}

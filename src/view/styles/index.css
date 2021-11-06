@@ -1,0 +1,33 @@
+body {
+  overflow-x: hidden;
+  font-family: Montserrat-Medium;
+}
+
+p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* Adds a hyphen where the word breaks */
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: local("FiraSans"),
+    url(../../view/fonts/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("FiraSans"),
+    url(../../view/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("FiraSans"),
+    url(../../view/fonts/Montserrat-Light.ttf) format("truetype");
+}

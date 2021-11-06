@@ -1,0 +1,98 @@
+.courseList {
+  padding-top: 5;
+}
+
+.main-page {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.main-page CourseListHomePage {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.card-title {
+  font-family: "system-ui";
+  color: #292929;
+}
+
+.card-subtitle {
+  font-family: "system-ui";
+  color: darkgrey;
+}
+
+.courseCardDeck {
+  width: 50%;
+}
+
+.dueDateList {
+  margin-top: 20px;
+}
+
+.recent-notes h1 {
+  font-family: "system-ui";
+  margin: 10px;
+  margin-top: 20px;
+  color: darkslategrey;
+  font-size: 200%;
+}
+
+.recent-notes h2 {
+  font-family: "system-ui";
+  font-size: 150%;
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.recent-notes h4 {
+  font-family: "system-ui";
+  font-size: 100%;
+  color: darkgray;
+}
+
+.recent-notes h6 {
+  font-family: "system-ui";
+  font-size: 75%;
+  color: lightgray;
+}
+
+.recent-notes-title {
+  padding-left: 10px;
+}
+
+.deadline-entry {
+  padding: 10px;
+  margin: 20px;
+}
+.dueDateList h1 {
+  font-family: "system-ui";
+  margin: 10px;
+  margin-top: 20px;
+  color: darkslategrey;
+  font-size: 200%;
+  cursor: pointer;
+}
+
+.space {
+  padding: 10;
+}
+
+.dueDate h2 {
+  font-family: "system-ui";
+  font-size: 150%;
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.dueDate h4 {
+  font-family: "system-ui";
+  font-size: 100%;
+  color: darkgray;
+}
+
+.dueDate h6 {
+  font-family: "system-ui";
+  font-size: 75%;
+  color: lightgray;
+}

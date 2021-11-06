@@ -1,0 +1,130 @@
+.about-container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.header {
+  height: 94vh;
+  background-image: linear-gradient(to right bottom, #d5b16f80, #bd801f86),
+    url(../img/about-header-img.jpg);
+  background-size: cover;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -20%);
+}
+
+.header-text-container {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+
+.header-main {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Montserrat-Bold;
+  letter-spacing: 15px;
+}
+
+.header-sub {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+
+.about-section-container {
+  color: black;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Montserrat-Bold;
+  letter-spacing: 10px;
+}
+
+.about-sub {
+  font-size: 25px;
+  width: 30%;
+  margin-top: 30px;
+  line-height: 40px;
+  font-family: Montserrat-Medium;
+  margin-bottom: 100px;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+  animation: moveInBottom 1s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn:active::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
